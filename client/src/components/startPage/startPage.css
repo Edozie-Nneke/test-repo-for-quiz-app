@@ -1,0 +1,158 @@
+.startpage-container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.startpage-wrapper {
+  margin-top: 30px;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.startpage-wrapper header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+header img:first-child {
+  width: 58px;
+  height: 58px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.profile {
+  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.profile button {
+  width: 32%;
+  height: 24px;
+  font-size: 10px;
+  background: #222831;
+  color: #eeeeee;
+  border: none;
+  outline: none;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 14px;
+}
+
+.profile span {
+  font-weight: 600;
+  font-size: 10px;
+}
+
+header img:last-child {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.startpage-wrapper header h1 {
+  font-size: 40px;
+}
+
+.startpage-settings-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.random {
+  margin-top: 20px;
+  width: 80%;
+}
+
+.random h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.random ul {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.random ul li {
+  margin-bottom: 8px;
+}
+
+.settings {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.select {
+  width: 250px;
+  height: 32px;
+  border: 2px solid #222831;
+  background: #222831;
+  color: #eeeeee;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.settings-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+.difficulty,
+.category {
+  width: 100%;
+  margin-left: 100px;
+}
+
+.startpage-btn-wrapper {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 180px;
+  font-weight: 400;
+  font-size: 16px;
+  /* border: 1px solid black; */
+}
+
+.startpage-btn-wrapper h4 {
+  font-size: 18px;
+  /* border: 1px solid black; */
+  margin-left: 20px;
+}
+
+.startpage-btn-wrapper button {
+  margin-left: 460px;
+  font-size: 18px;
+  width: 150px;
+  height: 38px;
+  font-weight: 500;
+  border: none;
+  outline: none;
+  color: #eeeeee;
+  background: #222831;
+  cursor: pointer;
+  transition: all 0.3s ease-in;
+  /* border: 1px solid black; */
+}
+
+.startpage-btn-wrapper button:hover {
+  color: #222831;
+  background: #eeeeee;
+  border: 2px solid #222831;
+}

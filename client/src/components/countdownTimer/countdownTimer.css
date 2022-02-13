@@ -1,0 +1,43 @@
+.countdownTimer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.countdownTimer h2 {
+  font-weight: 600;
+  font-size: 32px;
+}
+
+.countdownTimer-wrapper {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.minutes {
+  font-size: 28px;
+  font-weight: 500;
+}
+.minutes small {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.colon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.seconds {
+  font-size: 28px;
+  font-weight: 500;
+}
+.seconds small {
+  font-size: 16px;
+  font-weight: 600;
+}
